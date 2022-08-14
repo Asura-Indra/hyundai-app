@@ -1,0 +1,246 @@
+<div class="body-container" style="background-color: #fff;border-radius: 2px;">
+
+  <div class="box-one d-flex" style="margin-bottom: 20px;">
+  <h4 style="margin-top: 50px; font-weight: 600;">Book Test Drive</h4>
+    </div>
+<hr>
+<div class="box-two" style="margin-top: 30px;">
+
+  <! --Collapse One -->
+
+  <div class="accordion" id="accordionOne">
+    <div class="accordion-item ">
+      <h2 class="accordion-header" id="testDriveDetails">
+        <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Please Enter Test Drive Details
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show drop-down-one" aria-labelledby="testDriveDetails" data-parent="#accordionOne">
+        <div class="accordion-body">
+          <div class="item-one d-flex flex-wrap" style="margin-top: 20px; gap: 20px;">
+            <dl class="frm">
+              <dt><label for="Modal">Select Modal</label></dt>
+              <dd>
+                <select id="Modal" name="Modal">
+                  <option>Select Car Model</option>
+                  <option>vyviyv</option>
+                </select>
+               </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="fuel">Select Fuel Type</label></dt>
+              <dd>
+                <select id="fuel" name="fuel">
+                  <option>Petrol</option>
+                  <option>vyviyv</option>
+                </select>
+               </dd>
+            </dl>
+            <dl class="frm" style="padding-top:35px">
+              <dd>
+                <select id="Variant" name="Variant">
+                  <option>Variant</option>
+                </select>
+               </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="Modal">Select Transmission Type</label></dt>
+              <dd>
+                <select id="Modal" name="Modal">
+                  <option>Manual</option>
+                  <option></option>
+                </select>
+               </dd>
+            </dl>
+          </div>
+          <div class="item-two d-flex flex-wrap justify-content-between">
+            <dl class="frm">
+              <dt><label for="State">Select State<span>*</span></label></dt>
+              <dd>
+                <select id="State" name="State">
+                  <option>Select State</option>
+                  <option>vyviyv</option>
+                </select>
+               </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="City">Select City<span>*</span></label></dt>
+              <dd>
+                <select id="City" name="City">
+                  <option>Select City</option>
+                  <option>vyviyv</option>
+                </select>
+               </dd>
+              </dl>
+            <dl class="frm">
+              <dt><label for="DealerName">Dealer Name<span>*</span></label></dt>
+              <dd>
+                <select id="DealerName" name="DealerName" style="width: 250px;">
+                  <option>Manual</option>
+                  <option></option>
+                </select>
+               </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <! --Collapse Two -->
+
+
+  <div class="accordion" id="accordionTwo">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+Book your Date & Time Slot
+</button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse show drop-down-two" aria-labelledby="headingTwo" data-parent="#accordionTwo">
+        <div class="accordion-body">
+<div class="block d-flex ">
+<div class="block-one">
+  <dl class="frm">
+    <dt><label for="date">Select Date<span>*</span></label></dt>
+    <dd>
+      <input id="date" name="date" placeholder="31 july 2022" [value]="date">
+    </dd>
+    <ngb-datepicker navigation="arrows" outsideDays="collapsed" (dateSelect)="onDateSelection($event)" >
+    </ngb-datepicker>
+  </dl>
+</div>
+<div class="block-two" style="  margin-top: 10px; margin-left: 30px;">
+  <div class="heading d-flex justify-content-between flex-wrap">
+ <label style="font-size: 10px; font-weight: 800;">Available Time Slots</label>
+  <label style="font-size: 10px; font-weight: 800;">PreferedTime <span class="time-period">HH</span> : <span class="time-period" style="margin-right: 5px;">MM</span> <span class="time-period time-selected">AM</span><span class="time-period">PM</span></label>
+</div>
+  <div class="time-slot-box d-flex flex-wrap" style="margin-top: 10px; padding: 0; gap:25px">
+<button class="btn-disabled">9:00 AM</button>
+<button class="btn-disabled">9:30 AM</button>
+<button class="btn-disabled">9:00 AM</button>
+<button class="btn-clicked">9:30 AM</button>
+<button >9:00 AM</button>
+<button>9:30 AM</button>
+<button>9:00 AM</button>
+<button>9:30 AM</button>
+<button>9:30 AM</button>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <! --Collapse Three -->
+
+
+  <div class="accordion " id="accordionThree">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+Enter Your Personal Details
+</button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse show drop-down-three" aria-labelledby="headingthree" data-parent="#accordionThree">
+        <div class="accordion-body">
+          <div class="test-drive-box" style="margin-top: 15px; font-weight: 900;">
+            <dl class="frm">
+              <dt><label for="Name">Test Drive at</label></dt>
+              <dd>
+<button [ngClass]="testDrive_option.showroom==true?'btn-selected':'btn-unselected'" (click)="selectShowroom()">Showroom</button>
+<button [ngClass]="testDrive_option.doorstep==true?'btn-selected':'btn-unselected'" (click)="selectdoorstep()">Doorstep</button>
+              </dd>
+            </dl>
+          </div>
+          <div class="personal-details-box d-flex flex-wrap" style="gap: 25px;">
+            <dl class="frm">
+              <dt><label for="Name">Name<span class="required">*</span></label></dt>
+              <dd>
+                <input id="address-one" name="Name" placeholder="Enter Your Name"  >
+              </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="mobile-no">Mobile Number</label></dt>
+              <dd>
+                <input id="mobile-no" name="mobile-no" placeholder="Enter Your Mobile Number">
+              </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="Landmark">Email</label></dt>
+              <dd>
+                <input id="Email" name="Email" placeholder="Enter Your Email" >
+              </dd>
+            </dl>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <! --Collapse four -->
+
+
+  <div class="accordion" id="accordionfour" *ngIf="testDrive_option.doorstep==true">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingfour">
+        <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+Address Details
+</button>
+      </h2>
+      <div id="collapsefour" class="accordion-collapse collapse show drop-down-four" aria-labelledby="headingfour" data-parent="#accordionfour">
+        <div class="accordion-body">
+          <div class="address-box d-flex flex-wrap" style="margin-top: 30px; gap: 25px;">
+            <dl class="frm">
+              <dt><label for="address-one">Address 1 <span class="required">*</span></label></dt>
+              <dd>
+                <input id="address-one" name="address-one" placeholder="Enter Your Address"  >
+              </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="address-two">Address 2</label></dt>
+              <dd>
+                <input id="address-two" name="address-two" placeholder="Enter Your Address">
+              </dd>
+            </dl>
+            <dl class="frm">
+              <dt><label for="Landmark">Landmark <span class="required">*</span></label></dt>
+              <dd>
+                <input id="Landmark" name="Landmark" placeholder="Enter Nearest Landmark" >
+              </dd>
+            </dl>
+
+          </div>
+          <div class="address-box-two d-flex flex-wrap" >
+            <dl class="frm">
+              <dt><label for="contact">Additional Contact Number</label></dt>
+              <dd>
+                <input id="contact" name="contact" placeholder="Enter Your Additional Contact Number" >
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <! --term condition box -->
+
+
+<div class="submit-box" style="  padding-bottom: 30px;">
+  <div class="term-box" style="display: flex; flex-wrap: wrap; padding-left: 5px; margin-bottom: 20px;">
+    <input type="checkbox" style="height: 20px; width:20px;"> <span>I agree by clicking the 'Submit' button below, I am explicitly soliciting a Call/SMS/Whatsapp from Hyundai India  Ltd. </span>
+              </div>
+
+              <! --Submit button -->
+
+
+  <div class="submit-btn d-flex justify-content-center">
+    <button>Submit</button>
+       </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,219 @@
+
+hr
+{
+margin: 0px 35px 0px;
+}
+dt{
+  margin-bottom: 5px;
+}
+
+.box-one, .box-two
+{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.accordion .accordion-item
+{
+  margin-bottom: 20px;
+  border: none;
+}
+
+.accordion .accordion-item .accordion-header
+{
+  color: #fff;
+  background-color:#002c5f ;
+  border-radius: 2px;
+}
+
+
+.accordion .accordion-item .accordion-button
+{
+border: none;
+text-decoration: none;
+background:none;
+width: 100%;
+text-align: left;
+color: #fff;
+font-size: 15px;
+padding: 20px;
+}
+
+
+.accordion-body
+{
+  padding: 0;
+}
+ select
+{
+  width: 185px;
+  font-size: 12px;
+  height: 30px;
+  border: 1px solid #002c5f;
+  color:rgb(183, 183, 183);
+  border-radius: 2px;
+}
+
+
+option:checked{
+  color: #002c5f;
+}
+
+.frm label
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+
+.drop-down-two .block .block-one input
+{
+width: 230px;
+font-size: 13px;
+font-weight:600;
+height: 30px;
+border: 1.2px solid #002c5f;
+border-radius: 2px;
+padding-left: 10px;
+}
+
+ngb-datepicker::ng-deep .ngb-dp-weekday
+{
+color: #bababa !important;
+font-style: normal;
+font-size: 10px;
+font-weight: bold;
+background-color: #fff;
+}
+
+ngb-datepicker::ng-deep .ngb-dp-month-name
+{
+font-size: 15px;
+font-weight: bold;
+}
+
+ngb-datepicker::ng-deep .ngb-dp-header, ngb-datepicker::ng-deep .ngb-dp-month-name
+{
+  background-color: #fff !important;
+}
+
+
+.drop-down-two .block-two .time-slot-box button
+{
+  width: 150px;
+  height: 30px;
+  text-align:center;
+  border: none;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  border: 1px solid #bcbcbc;
+  background-color: #fff;
+  color: #002c5f;
+  border: 1px solid #002c5f;
+}
+
+.drop-down-two .block-two .time-slot-box .btn-disabled
+{
+  border: none;
+  background-color: #f6f6f6;
+}
+
+.drop-down-two .block-two .time-slot-box .btn-clicked
+{
+  background-color: #002c5f;
+  color: #fff;
+}
+
+.drop-down-two .block-two .time-slot-box .btn-unclicked
+{
+  background-color: #fff;
+  color: #002c5f;
+  border: 1px solid #002c5f;
+}
+
+.time-period
+{
+font-size: 10px;
+  background-color: #f6f6f6;
+  font-weight: lighter;
+padding: 5px;
+cursor: pointer;
+}
+
+.time-selected
+{
+  background-color: #002c5f ;
+color: #fff;
+}
+
+.time-unselected
+{
+  background-color: #f6f6f6;
+color: rgb(17, 17, 17);
+}
+
+
+.drop-down-three .test-drive-box button
+{
+  width: 120px;
+  height: 30px;
+  text-align:left;
+  border: none;
+  font-size: 10px;
+  padding-left: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  border: 1px solid #bcbcbc;
+}
+.drop-down-three .test-drive-box button:last-child
+{
+margin-left: 25px;
+}
+
+
+.btn-selected
+{
+  background-color: #002c5f;
+  color: #fff;
+}
+.btn-unselected
+{
+  background-color: #fff;
+  color: #002c5f;
+}
+
+ .personal-details-box input , .drop-down-four input
+{
+width: 250px;
+font-size: 12px;
+  height: 28px;
+  border: 1px solid #002c5f;
+  color:rgb(183, 183, 183);
+  border-radius: 2px;
+}
+
+.submit-box  .term-box span
+{
+  font-size: 10px;
+  font-weight: bold;
+  color: #bababa;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+ .submit-btn button
+{
+  background-color: #002c5f;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+border-radius: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 14px;
+  font-weight: bold;
+border: none;
+}
+

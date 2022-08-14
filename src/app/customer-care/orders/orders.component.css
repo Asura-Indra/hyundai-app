@@ -1,0 +1,103 @@
+.box-one, .box-two, .box-three
+{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+select
+{
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color:grey;
+  width: 180px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+dt
+{
+height: 22px;
+}
+
+.frm label
+{
+  font-size: 10px;
+}
+
+.box-two
+{
+  height: 100px;
+  background-color: #ededed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.box-two button
+{
+  border: none;
+  background:none;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-top: 12px;
+  color: #0E306C;
+}
+
+
+.box-three .item
+{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 10px;                  /* added */
+}
+
+
+.box-three .item .frm
+{
+margin-bottom: 0;
+}
+
+.box-three .item input
+{
+  height: 30px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color:#000;
+ min-width: 180px;
+ font-size: 12px;
+ color: grey;
+}
+
+
+.table-main
+{
+  height: 280px;
+overflow-x:auto;
+}
+
+.table-main table input
+{
+  width: 15px;
+}
+
+.pagination
+{
+  margin-left: 40px;
+  padding-bottom: 30px;
+}
+
+ngb-pagination ::ng-deep ul > li:not(.active) > a {
+ color:#0E306C !important;
+}
+
+ngb-pagination ::ng-deep ul > li.active > a {
+  background-color:#0E306C !important;
+}
+
+ngb-pagination ::ng-deep .visually-hidden
+{
+  display: none;
+}

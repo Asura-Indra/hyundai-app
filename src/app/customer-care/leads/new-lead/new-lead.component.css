@@ -1,0 +1,101 @@
+.body-container
+{
+background-color: #fff;
+border-radius: 2px;
+}
+
+hr
+{
+margin: 0px 35px 0px;
+}
+
+dt
+{
+height: 22px;
+}
+
+.frm
+{
+  margin-bottom: 0;
+}
+
+.body-container .title
+{
+  margin-bottom: 15px;
+}
+
+.body-container .title h4
+{
+  padding-top: 40px;
+  padding-left: 35px;
+  font-weight: 600;
+}
+
+
+.customer-info, .car-info
+{
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.customer-info h5, .car-info h5
+{
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.box-one
+{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  gap:25px;
+}
+
+
+.box-one .frm .required
+{
+  color: red;
+}
+
+.box-one .frm label,.box-two .frm label
+{
+font-size: 10px;
+}
+
+input, select
+{
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color:#000;
+}
+
+ select
+{
+  width: 185px;
+  font-size: 12px;
+  height: 30px;
+}
+
+.box-two
+{
+  gap:25px;
+}
+
+
+.save-btn
+{
+margin-top: 20px;
+padding-bottom: 30px;
+}
+
+.save-btn button
+ {
+  background-color: #0E306C;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  height: 25px;
+}

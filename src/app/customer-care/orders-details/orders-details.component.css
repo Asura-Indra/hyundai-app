@@ -1,0 +1,274 @@
+
+hr
+{
+margin: 0px 35px 0px;
+}
+
+dt
+{
+height: 22px;
+}
+
+.box-one, .box-two, .box-four
+{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.box-one h4
+{
+  margin-top: 45px;
+  font-weight: 550;
+}
+
+.box-one .item-list
+{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.box-one .item-list .frm
+{
+width: 100px;
+}
+
+.frm dt
+{
+height: 20px;
+}
+
+ .frm dt label
+{
+font-size: 11px;
+color: grey;
+font-weight: 500;
+}
+
+.frm dd label
+{
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.box-two
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.box-two .item-list-two
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:25px
+}
+
+.box-two .item-list-two .frm
+{
+width: 100px;
+}
+
+
+
+.accordion
+{
+  margin-bottom: 5px;
+}
+
+.accordion .accordion-item .accordion-button
+{
+border: none;
+text-decoration: none;
+background:none;
+width: 100%;
+text-align: left;
+color: #fff;
+font-size: 10px;
+background-color:#002c5f ;
+padding-left: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.accordion .accordion-item .accordion-button-big
+{
+  border: none;
+text-decoration: none;
+background:none;
+width: 100%;
+text-align: left;
+color: #fff;
+font-size: 12px;
+background-color:#002c5f ;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
+
+
+.table-box
+{
+  margin-top: 15px;
+}
+
+.table-box td, .table-box th
+{
+font-size: 12px;
+border-bottom:0.1px solid #e6e6e6;
+}
+
+
+.accordionEight .charger-box input[type=checkbox]
+{
+  width: 18px;
+  height: 18px;
+}
+
+.accordionEight .charger-box input[type=text]
+{
+  height: 28px;
+  border: 2px solid #D9D9D9;
+  background-color: #fff;
+  color:#000;
+  width: 220px;
+  font-size: 12px;
+}
+
+.accordionEight .charger-box button
+{
+  color: #fff;
+font-size: 12px;
+background-color:#002c5f ;
+margin-left: 8px;
+width: 60px;
+text-align: center;
+height: auto;
+}
+
+.accordionNine .drop-down-nine .customer-info .frm
+{
+margin-bottom: 0;
+width: 200px;
+}
+
+.accordionTenth  .drop-down-Tenth .btn-show button
+{
+  background-color:#002c5f ;
+color: #fff;
+font-size: 10px;
+width: 120px;
+padding: 5px;
+}
+
+.accordionTenth  .drop-down-Tenth .table-pay-info
+{
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.accordionTenth  .drop-down-Tenth .table-pay-info .table
+{
+  font-size: 12px;
+}
+
+.accordionTenth  .drop-down-Tenth .table-pay-info .table td
+{
+font-weight: 500;
+}
+
+.accordionTenth  .drop-down-Tenth .table-pay-info .table tbody td:first-child
+{
+  font-weight: 600;
+}
+
+.accordionTenth  .drop-down-Tenth .table-pay-info .table tfoot td:not(:last-child)
+{
+  font-weight: 600;
+}
+
+.accordionTenth  .drop-down-Tenth .btn-refund
+{
+width: auto;
+border: none;
+background-color: rgb(174, 172, 172);
+color: #fff;
+padding: 5px 15px;
+font-size: 10px;
+}
+
+
+.drop-down-Eleven .accordionEleven-box-one .frm
+{
+width:150px;
+}
+
+
+.accordionEleven-box-two .folloup-box .folloup-box-form .frm
+{
+margin-bottom: 0;
+}
+
+.accordionEleven-box-two .folloup-box-form-two .frm
+{
+width: calc(49%);
+}
+
+.folloup-box-form-two dl
+{
+  margin-bottom: 0;
+}
+
+.accordionEleven-box-two select
+{
+  width: 180px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.accordionEleven-box-two select ,.accordionEleven-box-two textarea
+{
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color:#000;
+}
+
+.accordionEleven-box-two textarea
+{
+width: 100%;
+  resize: none;
+  font-size: 12px;
+  height: 80px;
+}
+
+
+.frm label, .frm-end label,.frm-end-two label
+{
+font-size: 10px;
+}
+
+
+.accordionEleven-box-three h5
+{
+padding-top: 20px;
+font-weight: bold;
+font-size: 15px;
+margin-left: 25px;
+}
+.accordionEleven-box-three .box-three-container
+{
+margin-left: 25px;
+margin-right: 25px;
+overflow-x: auto;
+}
+
+.box-three-container table th,.box-three-container table td
+{
+  font-size: 10px;
+}
+

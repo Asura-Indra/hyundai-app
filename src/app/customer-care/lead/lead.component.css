@@ -1,0 +1,167 @@
+.body-container
+{
+background-color: #fff;
+border-radius: 2px;
+}
+
+hr
+{
+margin: 0px 35px 0px;
+}
+
+dt
+{
+height: 22px;
+}
+
+.box-one
+{
+margin-left: 30px;
+display: flex;
+flex-wrap: wrap;
+  justify-content:space-between;
+  margin-bottom: 20px;
+}
+
+.box-one h4
+{
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.btn-box
+{
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+.btn-box button
+{
+  background-color: #0E306C;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  border: none;
+  margin-left: 10px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+.box-two .col-one .label
+{
+font-size: 12px;
+font-weight: 500;
+min-width: 110px;
+}
+
+.box-two .col-one .label-details
+{
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.col-one
+{
+min-width: 360px;
+}
+
+.box-two .col-two table td
+{
+  float: right;
+}
+
+.box-two .col-two .label
+{
+font-size: 12px;
+font-weight: 500;
+}
+
+
+.box-two .col-two .label-details
+{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.box-three h5
+{
+padding-top: 30px;
+font-weight: bold;
+font-size: 15px;
+}
+
+ .folloup-box .folloup-box-form .frm
+{
+margin-bottom: 0;
+}
+
+.folloup-box-form-two
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 45px;
+}
+
+.box-three .folloup-box-form-two .frm
+{
+width: calc(49%);
+}
+
+.folloup-box-form-two dl
+{
+  margin-bottom: 0;
+}
+
+select
+{
+  width: 180px;
+  height: 30px;
+  font-size: 12px;
+}
+
+select , textarea
+{
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color:#000;
+}
+
+textarea
+{
+width: 100%;
+  resize: none;
+  font-size: 12px;
+  height: 80px;
+}
+
+
+.frm label, .frm-end label,.frm-end-two label
+{
+font-size: 10px;
+}
+
+
+.box-four h5
+{
+padding-top: 20px;
+font-weight: bold;
+font-size: 15px;
+margin-left: 25px;
+}
+.box-four-container
+{
+margin-left: 25px;
+margin-right: 25px;
+overflow-x: auto;
+}
+
+.box-four-container table th,.box-four-container table td
+{
+  font-size: 10px;
+}
+
+
+

@@ -1,0 +1,123 @@
+<div class="body-container" style="background-color: #fff; border-radius: 2px;">
+
+  <div class="box-one d-flex justify-content-between flex-wrap">
+  <h4 style="margin-top: 50px;font-weight: 600;">Leads</h4>
+  <div class="btn-box d-flex" style="margin-top: 35px;height: 65px;">
+  <button  routerLink="new-lead">New Lead</button>
+  <dl class="frm ml-2">
+    <dt><label for="Date">Date Range</label></dt>
+    <dd>
+      <select id="Date" name="Date">
+        <option>hyundai</option>
+        <option>hyundai</option>
+      </select>
+     </dd>
+  </dl>
+  </div>
+    </div>
+    <div class="box-two d-flex justify-content-center">
+   <div class="center d-flex justify-content-between">
+    <dl class="frm">
+      <dt><label for="assignAgent">Assign Relation Executive</label></dt>
+      <dd>
+        <select id="assignAgent" name="assignAgent">
+          <option>hyundai</option>
+          <option>hyundai</option>
+        </select>
+       </dd>
+    </dl>
+<button>Save</button>
+   </div>
+    </div>
+    <div class="box-three">
+<div class="item">
+  <dl class="frm">
+    <dt><label for="Search">Search By</label></dt>
+    <dd>
+      <select id="Search" name="Search">
+        <option>hyundai</option>
+        <option>hyundai</option>
+      </select>
+     </dd>
+  </dl>
+  <dl class="frm">
+    <dd>
+      <input placeholder="Search" style="margin-top: 22px;">
+    </dd>
+  </dl>
+  <dl class="frm">
+    <dt><label for="StateFilter">State Filter</label></dt>
+    <dd>
+    <input>
+     </dd>
+  </dl>
+  <dl class="frm">
+    <dt><label for="AgentFilter">Agent Filter</label></dt>
+    <dd>
+      <select id="AgentFilter" name="AgentFilter">
+        <option value="" disabled selected>Choose a drink</option>
+        <option>hyundai</option>
+        <option>hyundai</option>
+      </select>
+     </dd>
+  </dl>
+  <dl class="frm">
+    <dt><label for="StateFilter">State Filter</label></dt>
+    <dd>
+      <select id="StateFilter" name="StateFilter">
+        <option>hyundai</option>
+        <option>hyundai</option>
+      </select>
+     </dd>
+  </dl>
+</div>
+<div class="table-main">
+  <table class="table table-bordered table-sm table-md" style="font-size: 10px;">
+    <thead>
+      <tr>
+        <th><input type="checkbox"></th>
+        <th>Customer Name</th>
+        <th>Mobile No</th>
+        <th>Email</th>
+        <th>Model Name</th>
+        <th>Variant</th>
+        <th>Color</th>
+        <th>Date</th>
+        <th>Source</th>
+        <th>Sub Source</th>
+        <th>Agent</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>manoj mehta</td>
+        <td>86967566</td>
+        <td>manmoj@fyfif.com</td>
+        <td>hyundai i20</td>
+        <td>SE</td>
+        <td>EMP12345 Sambhav</td>
+        <td>Doe</td>
+        <td>EMP12345 Sambhav</td>
+        <td>10 July 2022</td>
+        <td>
+          <dl class="frm">
+                      <dd>
+            <select id="StateFilter" name="StateFilter">
+              <option><strong>EMP3635634</strong></option>
+              <option>hyundai</option>
+            </select>
+           </dd>
+        </dl></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<ngb-pagination class="pagination" [collectionSize]="30" size="sm">
+  <ng-template ngbPaginationPrevious>Prev</ng-template>
+  <ng-template ngbPaginationNext>Next</ng-template>
+</ngb-pagination >
+
+    </div>
+    </div>
+
