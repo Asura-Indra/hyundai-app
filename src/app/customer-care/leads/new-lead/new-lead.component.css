@@ -71,7 +71,7 @@ input, select
   color:#000;
 }
 
- select
+ select,input
 {
   width: 185px;
   font-size: 12px;

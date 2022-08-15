@@ -4,7 +4,7 @@
   margin-right: 35px;
 }
 
-select
+select, input
 {
   border: 1px solid #dcdcdc;
   background-color: #fff;
