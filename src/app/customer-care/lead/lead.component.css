@@ -102,6 +102,7 @@ margin-bottom: 0;
 {
   display: flex;
   margin-right: 45px;
+  flex-wrap: nowrap;
 }
 
 .box-three .folloup-box-form-two .frm
