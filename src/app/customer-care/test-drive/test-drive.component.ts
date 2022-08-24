@@ -13,10 +13,7 @@ export class TestDriveComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  link()
-  {
-    this.Router.navigateByUrl("login/customer-care/book-test-drive")
-  }
+ 
 
 
 }

@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 
 import { TestDriveRoutingModule } from './test-drive-routing.module';
 import { TestDriveComponent } from './test-drive.component';
+import { BookTestDriveComponent } from './book-test-drive/book-test-drive.component';
 
 
 @NgModule({
   declarations: [
-    TestDriveComponent
+    TestDriveComponent,
+    BookTestDriveComponent
   ],
   imports: [
     CommonModule,

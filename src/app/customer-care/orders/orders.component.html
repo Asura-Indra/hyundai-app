@@ -1,13 +1,40 @@
 <div class="body-container" style="background-color: #fff; border-radius: 2px;">
 
-  <div class="box-one d-flex justify-content-between flex-wrap" style="margin-bottom: 20px;">
-  <h4 style="margin-top: 50px;font-weight: 600;">Orders</h4>
+  <div class="box-one d-flex justify-content-between flex-wrap">
+  <h4 style="margin-top: 40px;font-weight: 600;">Orders</h4>
+  <dl class="frm" style="margin-top: 50px;">
+    <dt><label for="StatusFilter">Status Filter</label></dt>
+    <dd>
+      <select id="StateFilter" name="StateFilter">
+        <option>hyundai</option>
+        <option>hyundai</option>
+      </select>
+     </dd>
+  </dl>
   </div>
-
+  <hr>
+<div class="box-four d-flex">
+<div class="item">
+<div style="text-align: center;">
+  <h1><strong>1</strong></h1>
+  <h6 style="font-size:12px">TOTAL UN-ASSIGNED</h6>
+</div>
+</div>
+<div class="item">
+  <div style="text-align: center;">
+    <h1><strong>10</strong></h1>
+    <h6 style="font-size:12px">TOTAL ASSIGNED</h6>
+  </div></div>
+<div class="item">
+  <div style="text-align: center;">
+    <h1><strong>1</strong></h1>
+    <h6 style="font-size:12px">TOTAL Enquiry</h6>
+  </div></div>
+</div>
     <div class="box-two d-flex justify-content-center">
    <div class="center d-flex justify-content-between">
     <dl class="frm">
-      <dt><label for="assignAgent">Assign Agent</label></dt>
+      <dt><label for="assignAgent">Assign Relatonship Executive</label></dt>
       <dd>
         <select id="assignAgent" name="assignAgent">
           <option>hyundai</option>
@@ -81,7 +108,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr routerLink="orders-details">
         <td><input type="checkbox"></td>
         <td>10 july 2012 10:00 AM </td>
         <td>phone</td>

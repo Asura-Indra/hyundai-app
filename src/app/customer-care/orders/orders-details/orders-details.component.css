@@ -139,7 +139,7 @@ font-size: 12px;
   background-position: -236px -102px;
   content: "";
   display: inline-block;
-  background-image: url(.../../../../../assets/icons/all-icons.png);
+  background-image: url(.../../../../../../assets/icons/all-icons.png);
   background-repeat: no-repeat;
   background-size: 400px;
   top: 5px;
@@ -166,6 +166,7 @@ font-size: 12px;
   text-align: center;
   align-items: center;
   position: relative;
+  line-height: 1;
 }
 
 .nav-link .link::before
@@ -425,6 +426,52 @@ overflow-x: auto;
 {
   font-size: 10px;
 }
+
+.container-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 50px;
+  height: 100px;
+   background-color:#fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   z-index: 99;
+   box-shadow: -5px -7px 6px rgb(0 0 0 / 13%);
+  }
+
+.container-bottom .verify-btn
+{
+  float: left;
+  width: 205px;
+  position: relative;
+  min-width: 156px;
+  font-size: 14px;
+  height: 44px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  background-color: #002c5f;
+  border: 1px solid #002c5f;
+}
+
+.container-bottom .verify-btn span::before{
+  content: "";
+    background-image: url(../../../../assets/icons/qmenu_04.c72ca7db0f62480b442c.png)!important;
+    width: 24px;
+    height: 35px;
+    background-size: 47px;
+    background-position: -16px -7px;
+    display: inline-block!important;
+    background-repeat: no-repeat;
+    right: 177px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 9px;
+}
+
 
 @media only screen and (max-width: 1100px)
    {
