@@ -5,12 +5,14 @@ import { CommonModule } from '@angular/common';
 
 import { LeadsRoutingModule } from './leads-routing.module';
 import { LeadsComponent } from './leads.component';
+import { LeadComponent } from './lead/lead.component';
 
 
 @NgModule({
   declarations: [
     LeadsComponent,
-    NewLeadComponent
+    NewLeadComponent,
+    LeadComponent
   ],
   imports: [
     CommonModule,

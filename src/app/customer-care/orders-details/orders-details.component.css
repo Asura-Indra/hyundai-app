@@ -9,6 +9,7 @@ dt
 height: 22px;
 }
 
+
 .box-one, .box-two, .box-four
 {
   margin-left: 35px;
@@ -73,7 +74,160 @@ font-weight: 500;
 width: 100px;
 }
 
+.dealer-box
+{
+display: flex;
+}
 
+
+.box-one .frm dd label,.box-two .frm dd label,.dealer-box .frm dd label
+{
+font-weight: 600;
+font-size: 12px;
+}
+
+.dealer-box .onlineBtn
+{
+  width: 15px;height:15px;border-radius:50%;background-color:rgb(23, 185, 23);border:none;padding:3px;
+}
+
+.dealer-box .rating-text
+{
+  font-size:12px;font-weight: 500;
+}
+
+.dealer-box .rating-color
+{
+  color:#ffc300;
+}
+
+.dealer-box .dealer-address
+{
+  padding-left: 20px;font-size: 12px;line-height: 1.7;color: #a8a8a8;
+}
+
+.dealer-box .review
+{
+  font-size:13px;font-weight: 600;color:#002c5f;padding: 3px; text-decoration: underline;cursor: pointer;
+}
+
+.dealer-box .dealer-phn
+{
+    background-color: #efefef;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 600;
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 1px 20px 1px 35px;
+    border: none;
+}
+
+
+.dealer-box .dealer-phn a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dealer-box .dealer-phn a::before
+{
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: -236px -102px;
+  content: "";
+  display: inline-block;
+  background-image: url(.../../../../../assets/icons/all-icons.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  top: 5px;
+
+}
+
+/* Nav stepper  css */
+
+
+.nav-link
+{
+  display: flex;
+  justify-content:center;
+  background-color: #fff!important;;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  margin-top: 20px;
+}
+.nav-link .link
+{
+  width: 185px;
+  height: 85px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-link .link::before
+{
+  content: attr(title);
+  line-height: 33px;
+  color: #fff;
+  font-size: 14px;  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background-color: #d3d4d4;;
+  border: 1px solid #d3d4d4;
+      display: block;
+      text-align: center;
+          margin: 0 auto 10px;
+}
+
+.nav-link .link:not(:last-child):after
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color:#d3d4d4;;
+  top: 15px;
+  left: 55%;
+  z-index: 0;
+}
+
+.nav-link .link.active-link::before
+{
+  background-color: #002c5f;
+  border: 1px solid #002c5f;
+}
+
+.nav-link .link.active-link:not(:last-child):after
+{
+background-color: #002c5f;
+}
+
+.nav-link .link.active-link a
+{
+  color: #002c5f;
+}
+
+.nav-link .link a
+{
+font-size: 14px;
+cursor: pointer;
+font-weight: 600;
+color: #d3d4d4;
+line-height: 1;
+}
+
+.nav-link .link a:hover
+{
+  font-weight: 500;
+  font-size: 15px;
+text-decoration: underline solid #002c5f;
+}
+
+/* collapse  css */
 
 .accordion
 {
@@ -272,3 +426,10 @@ overflow-x: auto;
   font-size: 10px;
 }
 
+@media only screen and (max-width: 1100px)
+   {
+    .dealer-box
+    {
+flex-wrap: wrap;
+    }
+   }
